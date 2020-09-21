@@ -1,0 +1,75 @@
+We help you monetize your data with complete data anonymity
+
+Create database limited to aggregation
+
+If a database is created using the above syntex, all tables shall be limited to allow only aggregation queries which means that any column that doesn't have an aggregate function in it will cause the database system to fail the query with security violation  error. Distribution shall be obtained through group by. Column without aggregate function shall throw an sql exception for security violation.
+
+Use case: how many people wear glasses?
+How many people are paraplegic?
+Cause of death from Croner's office
+
+
+Terminologies: 
+
+PII: Personally Identifiable Data
+
+SOURCE/CENTRAL DATA: Source Data is the data Filtered dataset to be monetized
+
+
+
+Steps for the Company:
+
+0. Data Validation using samples
+1. Data Cleansing 
+2. Data Organization
+3. Data Concealing 
+
+
+
+
+Select count(*) from My.OHIPDatabase where illness = 'Parapelgic' and City like '%Aurora%' and Province like 'Ontario'
+
+
+Select Name, PhoneNumber from My.OHIPDatabase where illness = 'Parapelgic' and City like '%Aurora%' and Province like 'Ontario'
+
+Select CauseOfDeath, count(*) from My.CoronorDatabase group by CauseOfDeath order by 
+
+
+Target Businesses: 
+
+Businesses that are sitting on mass data and either using it themselves or not using it at all, we will help them monetize this data.
+
+Polls are the lowest quality data.
+
+
+Target Audience: 
+
+1. Market Researchers
+2. Policymakers 
+3. Lobbyists
+4. Scientists
+
+
+
+Business Pitches: 
+
+1. Polls are inexact and the lowest quality data.
+
+
+
+
+Templates: 
+
+
+
+Speaking to a CEO:
+
+1. Convincing that your data can be monetized 
+2. Assuring him that their data will be completely anonymous 
+3. Demonstrate how: ie, Demo.
+
+Template: 
+
+
+
+
